@@ -1,7 +1,7 @@
 theme = "apollo"
 taxonomies = [{ name = "tags" }]
 # TODO: change
-base_url = "https://example.com"
+base_url = "https://dailin3.github.io/blogs"
 title = "dailin"
 compile_sass = true
 build_search_index = true
