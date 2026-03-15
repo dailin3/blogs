@@ -5,6 +5,9 @@ title = "Dailin"
 compile_sass = true
 build_search_index = true
 
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+
 [markdown.highlighting]
 style = "class"
 light_theme = "github-light"

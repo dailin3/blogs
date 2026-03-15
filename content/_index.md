@@ -26,9 +26,9 @@ template = "home.html"
 
 # Features
 
+- [Blog pages](@/posts/_index.md)
 - [Projects page](@/projects/_index.md)
 - [Talks page](@/talks/_index.md)
 - [Tags]({{ url(path="tags") }})
-- [github](https://github.com/dailin3)
-
-Checkout all the [example pages](@/posts/_index.md).
+- [GitHub](https://github.com/dailin3)
+- [RSS feed]({{url(path="rss.xml")}})

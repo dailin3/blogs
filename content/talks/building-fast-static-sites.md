@@ -1,7 +1,7 @@
 +++
-title = "Building Lightning-Fast Static Sites with Zola"
-description = "Learn how to create performant static websites using Zola, a Rust-powered static site generator that compiles your content in milliseconds."
-date = 2024-06-22
+title = "视频展示测试"
+description = "这仅仅是一个测试，展示如何在我的博客中展示视频内容。"
+date = 2026-03-15
 
 [extra]
 video = { link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ", thumbnail = "images/talks/default.webp" }
@@ -12,4 +12,4 @@ name = "Web Performance Meetup"
 link = "https://webperf.example.com"
 +++
 
-An introduction to Zola and static site generation, demonstrating how to achieve sub-second build times and perfect Lighthouse scores.
+我就不介绍了，因为只是一个测试……
