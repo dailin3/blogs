@@ -28,7 +28,7 @@ template = "home.html"
 
 - [Projects page](@/projects/_index.md)
 - [Talks page](@/talks/_index.md)
-- [Tags](./tags/)
+- [Tags]({{ url(path="tags") }})
 - [github](https://github.com/dailin3)
 
 Checkout all the [example pages](@/posts/_index.md).
