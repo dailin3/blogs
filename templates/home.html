@@ -19,12 +19,4 @@
         {% set section = get_section(path="posts/_index.md") %}
         {{ post_macros::list_posts(pages=section.pages | slice(end=5)) }}
     </main>
-
-    <h1>Test articles</h1>
-    {% set highlights = [
-        get_page(path="posts/example.md"),
-    ] %}
-    <main class="post-list">
-        {{ post_macros::list_posts(pages=highlights) }}
-    </main>
 {% endblock main_content %}
