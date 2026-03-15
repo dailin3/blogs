@@ -2,7 +2,7 @@
 title = "Example Post"
 date = "2026-03-15"
 updated = "2022-05-01"
-path = "/blogs/example"
+path = "example/"
 authors = ["Dailin"]
 description = "this is description for example post" 
 weight = 2

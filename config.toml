@@ -1,8 +1,7 @@
 theme = "apollo"
 taxonomies = [{ name = "tags" }]
-# TODO: change
 base_url = "https://dailin3.github.io/blogs/"
-title = "dailin"
+title = "Dailin"
 compile_sass = true
 build_search_index = true
 
@@ -21,7 +20,6 @@ index_format = "elasticlunr_json"
 
 [extra]
 theme = "toggle-auto"
-#TODO:why static resource mapping problems?
 favicon = "/icons/social/github.svg"
 toc = true
 fancy_code = true
@@ -41,11 +39,9 @@ menu = [
 stylesheets = [
 ]
 
-# TODO: change
 fediverse = true
 fediverse_creator = "@dailin@mastodon.social"
 
-# TODO: change
 repo_url = "https://github.com/dailin3/blogs/tree/main/content/" 
 
 # the /tag page sorting
@@ -53,11 +49,11 @@ repo_url = "https://github.com/dailin3/blogs/tree/main/content/"
 sort_by = "page_count"
 reverse = true
 
-# TODO: change
 [extra.analytics]
-enabled = false
+enabled = true
 [extra.analytics.umami]
 website_id = "29decdcd-1118-45d5-9131-b05e695e57cc"
 host_url = "https://api-gateway.umami.dev/"
 
 # TODO: comment system: utterance
+# TODO: realetive link
