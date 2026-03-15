@@ -19,6 +19,7 @@ include_content = true
 index_format = "elasticlunr_json"
 
 [extra]
+web_url = "https://dailin3.github.io/blogs/"
 theme = "toggle-auto"
 favicon = "/icons/social/github.svg"
 toc = true
@@ -54,5 +55,3 @@ enabled = true
 [extra.analytics.umami]
 website_id = "29decdcd-1118-45d5-9131-b05e695e57cc"
 host_url = "https://api-gateway.umami.dev/"
-
-# TODO: comment system: utterance
