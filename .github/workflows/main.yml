@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+          fetch-depth: 0
 
       - name: Run build action (local composite)
         uses: ./.github/actions/build-zola
@@ -20,3 +23,6 @@ jobs:
           build_flags: ""
           check_links: "false"
           check_flags: ""
+
+      - name: Deploy
+        uses: actions/deploy-pages@v4
