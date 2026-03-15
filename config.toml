@@ -46,7 +46,7 @@ fediverse = true
 fediverse_creator = "@dailin@mastodon.social"
 
 # TODO: change
-repo_url = "https://github.com/not-matthias/apollo/tree/main/content/" 
+repo_url = "https://github.com/dailin3/blogs/tree/main/content/" 
 
 # the /tag page sorting
 [extra.taxonomies]
@@ -57,7 +57,7 @@ reverse = true
 [extra.analytics]
 enabled = false
 [extra.analytics.umami]
-website_id = "43929cd1-1e83...."
-host_url = "https://stats.mywebsite.com" # default: https://api-gateway.umami.dev/
+website_id = "29decdcd-1118-45d5-9131-b05e695e57cc"
+host_url = "https://api-gateway.umami.dev/"
 
 # TODO: comment system: utterance
