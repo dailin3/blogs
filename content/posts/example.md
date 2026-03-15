@@ -2,7 +2,7 @@
 title = "Example Post"
 date = "2026-03-15"
 updated = "2022-05-01"
-path = "example"
+path = "/blogs/example"
 authors = ["Dailin"]
 description = "this is description for example post" 
 weight = 2
@@ -25,7 +25,7 @@ above is meta data.
 </style>
 
 <div>
-    <a class="hplink" href="/">this is a test for html</a>
+    <a class="hplink" href="/blogs">this is a test for html</a>
     <p>this is a test for html</p>
     <button>this is a test for html</button>
 </div>

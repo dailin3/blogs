@@ -27,8 +27,8 @@ template = "home.html"
 # Features
 
 - [Projects page](@/projects/_index.md)
-- [Talks page](talks)
-- [Taxonomies](tags)
+- [Talks page](/blogs/talks)
+- [Taxonomies](/blogs/tags)
 - [github](https://github.com/dailin3)
 
 Checkout all the [example pages](@/posts/_index.md).
