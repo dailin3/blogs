@@ -1,0 +1,22 @@
+name: "Build Zola site for GitHub Pages"
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build and upload
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run build action (local composite)
+        uses: ./.github/actions/build-zola
+        with:
+          zola_version: "v0.22.0"
+          working_directory: "."
+          output_dir: "public"
+          build_flags: ""
+          check_links: "false"
+          check_flags: ""
