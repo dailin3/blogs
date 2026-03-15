@@ -1,0 +1,60 @@
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+# TODO: change
+base_url = "https://example.com"
+title = "dailin"
+compile_sass = true
+build_search_index = true
+
+[markdown]
+highlight_code = false
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
+
+[extra]
+theme = "toggle-auto"
+#TODO:why static resource mapping problems?
+favicon = "/icons/social/github.svg"
+toc = true
+fancy_code = true
+dynamic_note = true
+use_cdn = true
+mathjax = true
+socials = [
+  { name = "twitter", url = "https://x.com/diln23745615", icon = "twitter" },
+  { name = "github", url = "https://github.com/dailin3/", icon = "github" },
+]
+menu = [
+  { name = "posts", url = "/posts", weight = 1 },
+  { name = "projects", url = "/projects", weight = 2 },
+  { name = "about", url = "/about", weight = 3 },
+  { name = "tags", url = "/tags", weight = 4 },
+]
+stylesheets = [
+]
+
+# TODO: change
+fediverse = true
+fediverse_creator = "@dailin@mastodon.social"
+
+# TODO: change
+repo_url = "https://github.com/not-matthias/apollo/tree/main/content/" 
+
+# the /tag page sorting
+[extra.taxonomies]
+sort_by = "page_count"
+reverse = true
+
+# TODO: change
+[extra.analytics]
+enabled = false
+[extra.analytics.umami]
+website_id = "43929cd1-1e83...."
+host_url = "https://stats.mywebsite.com" # default: https://api-gateway.umami.dev/
+
+# TODO: comment system: utterance
