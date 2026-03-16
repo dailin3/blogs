@@ -5,7 +5,7 @@ echo "[$TIME] 开始与云端同步..."
 
 git pull --rebase origin main
 
-if[ $? -ne 0 ]; then
+if [ $? -ne 0 ]; then
     echo "[$TIME] ❌ 拉取云端代码失败（可能存在冲突），停止同步，请手动处理。"
     exit 1
 fi
