@@ -23,4 +23,4 @@ hidden = false
 
 EOF
 
-obsidian open file="$file"
+open "obsidian://open?vault=MyVault&file=$file"
